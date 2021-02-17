@@ -23,6 +23,7 @@
   "homepage": "https://github.com/chris31roc/burger-buns#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "express-handlebars": "^5.2.1",
     "mysql": "^2.18.1"
   }
 }
