@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/chris31roc/burger-buns/issues"
   },
-  "homepage": "https://github.com/chris31roc/burger-buns#readme"
+  "homepage": "https://github.com/chris31roc/burger-buns#readme",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
 }
