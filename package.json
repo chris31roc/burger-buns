@@ -1,0 +1,24 @@
+{
+  "name": "burger-buns",
+  "version": "1.0.0",
+  "description": "Burger Buns is a restaurant app that lets users input the names of burgers they'd like to eat.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chris31roc/burger-buns.git"
+  },
+  "keywords": [
+    "eat-da-burger",
+    "burger-app",
+    "handlebars"
+  ],
+  "author": "Christopher Hicks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chris31roc/burger-buns/issues"
+  },
+  "homepage": "https://github.com/chris31roc/burger-buns#readme"
+}
