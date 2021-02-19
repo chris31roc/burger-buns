@@ -1,0 +1,50 @@
+ <header><h1 id="h1">Burger Buns</h1></header>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card" >
+                        <div class="card-header">
+                          <h5>Your Burgers</h5>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          {{#each burgers}}
+                            {{#unless devoured}}
+                              <li class="list-group-item">{{> burgers/burger-block devoured=true}}</li>
+                            {{/unless}}
+                          {{/each}}
+                        </ul>
+                      </div>
+                </div> 
+                <div id="inputDiv" class="col-md-4">
+                    <div class="card">
+        
+                            <div class="card-body">
+                                <form class="create-form">
+                                    <p>Enter burger then click submit</p>
+                                        <div class="input-group">
+                                            <div class="col">
+                                                <input type="text" id="Burg" class="form-control" placeholder="Type Burger Name">
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <button type="submit" class="btn btn-primary">Submit</button>
+                                        </div>
+                                </form>
+                            </div>
+                    </div>
+                </div> 
+                <div class="col-md-4">
+                <div class="card" >
+                    <div class="card-header">
+                      <h5>Devoured Burgers</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        {{#each burgers}}
+                            {{#if devoured}}
+                                <li class="list-group-item">{{> burgers/burger-block devoured=false}}</li>
+                            {{/if}}
+                        {{/each}}
+                    </ul>
+                  </div>
+                </div>
+            </div>
+        </div>
