@@ -1,0 +1,46 @@
+/* Could not figure out why I can't connect this file */
+
+#body {
+    background-color: rgb(29, 175, 168);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#inputDiv {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.btn-primary {
+    padding: 15px;
+    margin: auto;
+    margin-left: 40%;
+}
+
+
+.input-group {
+    padding-bottom: 20px;
+}
+
+#h1 {
+    text-align: center;
+    color: rgb(218, 53, 103);
+    font-size: 100px;
+}
+
+h5 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+    
+    #body {
+        margin-left: 2%;
+        margin-right: 0%;
+    }
+
+}
